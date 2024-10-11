@@ -1,7 +1,5 @@
 import Elements from "../components/Builder/Elements";
-import BlockProperties from "../components/Builder/Properties/BlockProperties";
 import ImageProperties from "../components/Builder/Properties/ImageProperties";
-import TextProperties from "../components/Builder/Properties/TextProperties";
 import TopBar from "../components/Builder/TopBar";
 
 const page = () => {
@@ -36,7 +34,10 @@ const page = () => {
                                     />
                                 </div>
 
-                                <p className="text-5xl font-bold leading-tight mb-5">
+                                <p
+                                    className="text-5xl font-bold leading-tight mb-5"
+                                    contentEditable
+                                >
                                     Pitch-Deck Presentation Template
                                 </p>
 

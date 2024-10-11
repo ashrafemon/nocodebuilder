@@ -52,7 +52,7 @@ const TextProperties = () => {
                                 .fill(0)
                                 .map((_, i) => ({
                                     label: String(i + 1),
-                                    value: i + 1,
+                                    value: String(i + 1),
                                 }))}
                         />
                     </div>
@@ -66,7 +66,7 @@ const TextProperties = () => {
                                 .fill(0)
                                 .map((_, i) => ({
                                     label: String(i + 1),
-                                    value: i + 1,
+                                    value: String(i + 1),
                                 }))}
                         />
                     </div>
